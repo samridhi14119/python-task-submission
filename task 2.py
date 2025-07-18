@@ -1,3 +1,4 @@
-input("Enter your first name: Samridhi")
-input("Enter your first name: Lakhmani")
-print("Hello, Samridhi Lakhmani Welcome to the python program")
+first_name=input("Enter your first name: ")
+last_name=input("Enter your last name: ")
+full_name = first_name + " " + last_name
+print("Hello,", full_name + "! Welcome to the python program.")
